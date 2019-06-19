@@ -1,0 +1,38 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 81 entries, 0 to 80
+Data columns (total 4 columns):
+Kyphosis    81 non-null object
+Age         81 non-null int64
+Number      81 non-null int64
+Start       81 non-null int64
+dtypes: int64(3), object(1)
+memory usage: 2.6+ KB
+
+/opt/conda/lib/python3.6/site-packages/scipy/stats/stats.py:1713: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+  return np.add.reduce(sorted[indexer] * weights, axis=axis) / sumval
+
+[[14  4]
+ [ 6  1]]
+
+              precision    recall  f1-score   support
+
+      absent       0.70      0.78      0.74        18
+     present       0.20      0.14      0.17         7
+
+   micro avg       0.60      0.60      0.60        25
+   macro avg       0.45      0.46      0.45        25
+weighted avg       0.56      0.60      0.58        25
+
+
+[[16  2]
+ [ 6  1]]
+
+              precision    recall  f1-score   support
+
+      absent       0.73      0.89      0.80        18
+     present       0.33      0.14      0.20         7
+
+   micro avg       0.68      0.68      0.68        25
+   macro avg       0.53      0.52      0.50        25
+weighted avg       0.62      0.68      0.63        25
+
